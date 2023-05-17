@@ -1,0 +1,9 @@
+{
+    "accept": ".modal__buttons > .button--t1",
+    "signin": "div.button",
+    "login": "[data-test=nav-login-head]",
+    "username": "#UserLogin_username",
+    "password": "#UserLogin_password",
+    "rememberMe": "label[for=UserLogin_rememberMe",
+    "submit": "[data-test=control-submit]"
+}

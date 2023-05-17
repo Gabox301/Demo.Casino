@@ -1,0 +1,11 @@
+{
+    "accept": ".modal__buttons > .button--t1",
+    "signup": "[data-test=nav-reg-head]",
+    "email": "[data-test=input-email]",
+    "terms": "label[for=core__protected_modules_user_yiiForm_RegistrationForm_terms_and_conditions]",
+    "coin": "label[for=core__protected_modules_user_yiiForm_RegistrationForm_currency]",
+    "mDOGE": "[data-index=4]",
+    "password": "[data-test=input-password]",
+    "confirm": "[data-test=input-password_confirmation]",
+    "noBonus": "label[for=bonus-0]"
+}

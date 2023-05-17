@@ -1,0 +1,27 @@
+{
+  "name": "demo.casino",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "ui": "npx cypress open",
+    "headless": "npx cypress run",
+    "report": "npx cypress run --env allure=true",
+    "serve": "allure serve allure-results",
+    "clean": "rm -R allure-results/ ./cypress/videos/"
+  },
+  "keywords": [
+    "Automation, Demo, Challenge"
+  ],
+  "author": "Gabriel Ortega",
+  "license": "ISC",
+  "devDependencies": {
+    "@shelex/cypress-allure-plugin": "^2.39.1",
+    "cypress": "^12.12.0",
+    "prettier": "^2.8.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gabox301/Demo.Casino"
+  }
+}
